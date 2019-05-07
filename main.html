@@ -41,15 +41,16 @@ body {
 
 
 .button{
-    align-items: center;
-    justify-content: center;
-	text-align: center;
-    margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom: 10%;
+    
+    margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20%;
 	margin-top: 10%;
     background-color: blue;
-    align-items: center;
+   
+	vertical-align: middle;
+	
+
     
 	border-radius: 20px;
 	width: 600px;
@@ -70,6 +71,8 @@ progress {
 
 
 
+
+
 .add-button {
 	border-radius: 50%;
 	
@@ -83,6 +86,12 @@ progress {
 	
 	grid-column: 3;
 	grid-row: 2;
+}
+
+.grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 </style>
@@ -104,8 +113,8 @@ progress {
 	</div>
 	
 	
-	
-		<button class="button" vertical-align="center" horizontal-align="left">
+	<div class="grid">
+		<button class="button" >
 		
 			<header >SE350 Assignment </header>
 			<header > Deadline: May 10th</header>
@@ -113,7 +122,7 @@ progress {
 		
 		</button>
 		
-		<button class="button" vertical-align="center" horizontal-align="center">
+		<button class="button" >
 		
 			<header >303 Team </header>
 			<header > Deadline: May 25th</header>
@@ -121,13 +130,16 @@ progress {
 		
 		</button>
 	
-		<button class="button" vertical-align="center" horizontal-align="right">
+		<button class="button">
 		
 			<header >303 Project </header>
 			<header > Deadline: May 17th</header>
 			<progress   value="55" max="100"></progress>
 		
 		</button>
+	</div>
+	
+		
 		
 		
 		
