@@ -92,12 +92,25 @@ body {
 	width: 100%;
 	margin-bottom: 16px;
 	font-size: 18px;
+	//border-radius: 50px;
 }
 
-#tasks-table td, #tasks-table th {
-  //border: 1px solid #ddd;
-  padding: 4px;
+#tasks-table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
 }
+
+#tasks-table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+#tasks-table tr:first-child th:first-child {
+    border-top-left-radius: 10px;
+}
+
+#tasks-table tr:first-child th:last-child {
+    border-top-right-radius: 10px;
+}
+
 
 #tasks-table th {
 	text-align: left;
