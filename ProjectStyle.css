@@ -31,7 +31,60 @@ body {
   padding-left: 50px;
 }
 
+.button{
+    
+    margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 10%;
+	margin-top: 10%;
+    background-color: #e8f3f4;
+	border-radius: 20px;
+	width: 600px;
+	height: 400px;
+	border-color: #D0E7E7;  
+}
 
+progress {
+	background-color: #FDFEFE;
+	border: 0;
+	height: 18px;
+	border-radius: 9px;
+	margin-left: 20 px;
+	margin-right: 20 px;
+	margin-bottom: 20 px;
+	margin-top: 20 px;
+}
+
+.grid {
+	display: flex;
+}
+
+
+.add-button {
+	background-color: #e8f3f4;
+	width: 100 px;
+	height: 100 px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 10%;
+	
+	
+}
+.add-button:focus {
+	outline:0;
+}
+
+.button:focus {
+	outline:0;
+}
+
+.menu-button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
 
 .project-name {
   height: 90px;
