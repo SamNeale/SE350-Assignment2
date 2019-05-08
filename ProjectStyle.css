@@ -93,6 +93,7 @@ body {
 	margin-bottom: 16px;
 	font-size: 18px;
 	//border-radius: 50px;
+	padding-left: 30px;
 }
 
 #tasks-table tr:last-child td:first-child {
@@ -130,9 +131,16 @@ body {
 	color: white;
 }
 
+#tasks-table td, th{
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
 .assignee-photo {
 	width: 50px;
 	border-radius: 50%;
+	vertical-align: middle;
 
 
 }
