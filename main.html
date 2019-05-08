@@ -44,17 +44,17 @@ body {
     
     margin-left: 5%;
 	margin-right: 5%;
-	margin-bottom: 20%;
+	margin-bottom: 10%;
 	margin-top: 10%;
     background-color: blue;
    
-	vertical-align: middle;
+	
 	
 
     
 	border-radius: 20px;
 	width: 600px;
-	height: 300px;
+	height: 400px;
 }
 
 progress {
@@ -62,6 +62,7 @@ progress {
 	border: 0;
 	height: 18px;
 	border-radius: 9px;
+	
   
 	margin-left: 20 px;
 	margin-right: 20 px;
@@ -74,24 +75,35 @@ progress {
 
 
 .add-button {
-	border-radius: 50%;
-	
 	background-color: green;
+	width: 100 px;
+	height: 100 px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 10%;
 	
-	margin-left: 20 px;
-	margin-right: 20 px;
-	margin-bottom: 20 px;
-	margin-top: 20 px;
 	
-	
-	grid-column: 3;
-	grid-row: 2;
+}
+.add-button:focus {
+	outline:0;
+}
+
+.button:focus {
+	outline:0;
 }
 
 .grid {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.menu-button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
 }
 
 </style>
@@ -101,14 +113,23 @@ progress {
 
 	<div class="topnav">
 		<div class="topnav-left">
-			<img src="tasker-logo.png" width="50" height="50" align="bottom">
+			<img src="images/tasker-logo.png" width="40" height="40" align="bottom">
 		</div>
 			
 		<div class="topnav-right">
-			<a href="#notifications">Notifications</a>
-			<a href="#mail">Mail</a>
-			<a href="#settings">Settings</a>
-			<a href="#help">Help</a>
+			<button class="menu-button">
+				<img src="images/bell-icon.png" width="40" height="40" align="bottom">
+			</button >
+			<button class="menu-button">
+				<img src="images/mail-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/settings-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/question-icon.png" width="40" height="40" align="bottom">
+			</button>
+			
 		</div>
 	</div>
 	
@@ -138,6 +159,10 @@ progress {
 		
 		</button>
 	</div>
+	
+	<button class="add-button" style="width: 75px; height: 75px;">
+		<img src="images/plus-icon.png" >
+	</button>
 	
 		
 		
