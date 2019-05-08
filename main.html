@@ -45,7 +45,7 @@ body {
     margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 20%;
-	margin-top: 10%;
+	margin-top: 5%;
     background-color: blue;
    
 	vertical-align: middle;
@@ -63,9 +63,9 @@ progress {
 	height: 18px;
 	border-radius: 9px;
   
-	margin-left: 20 px;
-	margin-right: 20 px;
-	margin-bottom: 20 px;
+	margin-left: 5 px;
+	margin-right: 5 px;
+	margin-bottom: 5 px;
 	margin-top: 20 px;
 }
 
@@ -83,9 +83,6 @@ progress {
 	margin-bottom: 20 px;
 	margin-top: 20 px;
 	
-	
-	grid-column: 3;
-	grid-row: 2;
 }
 
 .grid {
@@ -93,6 +90,36 @@ progress {
 	align-items: center;
 	justify-content: center;
 }
+
+.grid-section {
+	
+	
+	
+	grid-template-rows: 1fr 1fr 4fr;
+	
+}
+
+.sec1 {
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 10%;
+	margin-top: 0%;
+	}
+
+.sec2 {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 5%;
+	margin-top: 0%;
+	}
+
+.sec3 {
+	margin-left: 0%;
+	margin-right: 0%;
+	margin-bottom: 5%;
+	margin-top: 10%;
+	}
+	
 
 </style>
 </head> 
@@ -115,10 +142,21 @@ progress {
 	
 	<div class="grid">
 		<button class="button" >
-		
-			<header >SE350 Assignment </header>
-			<header > Deadline: May 10th</header>
-			<progress   value="75" max="100"></progress>
+			<div class = "grid-section:">
+				<div class = "sec1">
+					<header ><font size = "+3">SE350 Assignment  </font></header>
+					<hr size="6" width="100%" align="center" color="black">
+				</div>
+				<div class = "sec2">
+					<header > <p style="text-align:left;"> Leader: </p> </header>
+					<hr style="dash" color="black">
+
+				</div>
+				<div class = "sec3">
+				<header > Deadline: May 10th</header>
+				</div>
+				<progress   value="75" max="100"></progress>
+			</div> 
 		
 		</button>
 		
