@@ -55,7 +55,7 @@ body {
 	width: 55%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
-	margin-left: 80px;
+	margin-left: 5%;
 	color: #4a4b4c;
 	font-size: 24px;
 	display: inline-block; 
@@ -67,7 +67,7 @@ body {
 		color: #4a4b4c;
 		padding: 5px;
 		text-decoration: none;
-		font-size: 18px;
+		font-size: 70%;
 		text-align: center;
 		margin-top: 16px;
 		margin-bottom: 16px;
@@ -109,7 +109,7 @@ body {
 	background-color: white;
 }
 #tasks-table tr:nth-child(odd){
-	background-color: #ddd;
+	background-color: #dbe9ee;
 }
 
 #tasks-table tr:hover {
@@ -141,7 +141,7 @@ body {
 	padding-right: 2%;
 
 	float: right;
-	margin-right: 80px;
+	margin-right: 5%;
 
 	overflow: scroll;
 
@@ -156,7 +156,7 @@ body {
 }
 
 .member-photo {
-	width: 110px;
+	width: 50%;
 	border-radius: 50%;
 	display: inline-block; 
 
