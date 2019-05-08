@@ -2,158 +2,12 @@
 <html lang="en">
 <head>
 	<meta charset=“UTF-8">
+	<link rel="stylesheet" href="ProjectStyle.css">
 	<title>Tasker</title>
 	
-<style>
-body {
-	margin: 0;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-.topnav {
-	overflow: hidden;
-	background-color: #33FFF6;
-}
-
-.topnav a {
-	float: left;
-	color: black;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-}
-
-.topnav a:hover {
-	background-color: #ddd;
-	color: black;
-}
-
-
-
-.topnav-right {
-	float: right;
-}
-.topnav-left {
-	float: left;
-}
-
-
-
-.button{
-    
-    margin-left: 5%;
-	margin-right: 5%;
-
-	margin-bottom: 20%;
-	margin-top: 5%;
-
-    background-color: blue;
-   
-	border-radius: 20px;
-	width: 600px;
-	height: 400px;
-}
-
-progress {
-	background-color: #FDFEFE;
-	border: 0;
-	height: 18px;
-	border-radius: 9px;
-	
-  
-	margin-left: 5 px;
-	margin-right: 5 px;
-	margin-bottom: 5 px;
-	margin-top: 20 px;
-}
-
-
-
-
-
-.add-button {
-	background-color: green;
-	width: 100 px;
-	height: 100 px;
-	border-radius: 50%;
-	float: right;
-	margin-right: 10%;
-	
-
-	
-}
-.add-button:focus {
-	outline:0;
-}
-
-.button:focus {
-	outline:0;
-
-}
-
-.grid {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-
-.grid-section {
-	display:grid;
-	grid-row-gap: 0.1em;
-	display: inline-table;
-	grid-auto-rows: minmax(150px, auto);
-	grid-template-columns: 1fr; 
-	box-sizing: border-width;
-	grid-row-gap: 15px;
-	
-}
-
-.sec1 {
-	grid-row-start: 1;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-bottom: 10%;
-	margin-top: 0%;
-	background-color: red;
-	}
-
-.sec2 {
-	
-	background-color: green;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
-	margin-top: 0%;
-	}
-
-.sec3 
-
-	background-color: green;
-	margin-left: 0%;
-	margin-right: 0%;
-	margin-bottom: 5%;
-	margin-top: 10%;
-	}
-	
-
-
-.menu-button{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-}
-
-
-</style>
 </head> 
-
 <body>
-
-	<div class="topnav">
+	<div class="topnav" height="75">
 		<div class="topnav-left">
 			<img src="images/tasker-logo.png" width="40" height="40" align="bottom">
 		</div>
@@ -171,29 +25,19 @@ progress {
 			<button class="menu-button">
 				<img src="images/question-icon.png" width="40" height="40" align="bottom">
 			</button>
-			
 		</div>
 	</div>
 	
 	
 	<div class="grid">
 		<button class="button" >
-			<div class = "grid-section">
-				<div class = "sec1" >
-					
-					<header ><font size = "+3">SE350 Assignment  </font></header>
-					<hr size="6" width="100%" align="center" color="black">
-				</div>
-				<div class = "sec2"  >
-					<header > <p style="text-align:left;"> Leader: </p> </header>
-					<hr style="dash" color="black">
-
-				</div>
-				<div class = "sec3">
-					<header > Deadline: May 10th</header>
-				</div>
-				<progress   value="75" max="100"></progress>
-			</div> 
+			
+		
+				<header>SE350 Assignment </header>
+				<header> Deadline: May 10th</header>
+				<progress  value="75" max="100"></progress>
+			
+		
 		
 		</button>
 		
