@@ -19,7 +19,7 @@ body {
   color: black;
 }
 .topnav a.active {
-  background-color: #337DFF;
+  background-color: #4a6fa5;
   color: white;
 }
 .topnav-right {
@@ -31,6 +31,8 @@ body {
   padding-left: 50px;
 }
 
+
+
 .project-name {
   height: 90px;
   width: 220px;
@@ -40,12 +42,17 @@ body {
   color: #4a4b4c;
   text-align: center;
   font-size: 28px;
+  line-height: 90px;
 }
+
+
+
 
 .project-tasks {
 	padding-left: 50px;
-	height: 500px;
-	width: 800px;
+	padding-right: 50px;
+	height: 500px; 
+	width: 55%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
 	margin-left: 80px;
@@ -54,14 +61,84 @@ body {
 	display: inline-block; 
 }
 
+.tasks-btn {
+		display: inline-block; 
+		padding-right: 30px;
+		color: #4a4b4c;
+		padding: 5px;
+		text-decoration: none;
+		font-size: 18px;
+		text-align: center;
+		margin-top: 16px;
+		margin-bottom: 16px;
+
+}
+
+.tasks-btn:hover {
+	text-decoration: underline;
+}
+
+.task-btn-active {
+	height: 20px;
+	width: 10%;
+	background-color: #4a6fa5;
+	border-radius: 10px;
+	color: white;
+	text-align: center;
+}
+
+#tasks-table {
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 16px;
+	font-size: 18px;
+}
+
+#tasks-table td, #tasks-table th {
+  //border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#tasks-table th {
+	text-align: left;
+	padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#tasks-table tr:nth-child(even){
+	background-color: white;
+}
+#tasks-table tr:nth-child(odd){
+	background-color: #ddd;
+}
+
+#tasks-table tr:hover {
+	background-color: #4a6fa5;
+	color: white;
+}
+
+.assignee-photo {
+	width: 50px;
+	border-radius: 50%;
+
+
+}
+
+
+
+
 .project-members {
 	height: 500px;
-	width: 300px;
+	width: 22%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
+
 	color: #4a4b4c;
 	font-size: 24px;
 	text-align: center;
+
+	padding-left: 2%;
+	padding-right: 2%;
 
 	float: right;
 	margin-right: 80px;
@@ -72,8 +149,10 @@ body {
 
 
 .member {
-	//margin: 0 auto;
-	//text-align: center;
+	margin-bottom: 0;
+	text-align: left;
+
+
 }
 
 .member-photo {
@@ -85,9 +164,11 @@ body {
 
 .member-photo-caption {
 	font-size: 18px;
-	padding-left: 20px;
-	display: inline-block;
-
+	//padding-left: 20px;
+	//display: inline-block;
+	float: right;
+	padding-top: 25%;
+	text-align: left;
 }
 
 
