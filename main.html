@@ -44,17 +44,15 @@ body {
     
     margin-left: 5%;
 	margin-right: 5%;
+
 	margin-bottom: 20%;
 	margin-top: 5%;
+
     background-color: blue;
    
-	vertical-align: middle;
-	
-
-    
 	border-radius: 20px;
 	width: 600px;
-	height: 300px;
+	height: 400px;
 }
 
 progress {
@@ -62,6 +60,7 @@ progress {
 	border: 0;
 	height: 18px;
 	border-radius: 9px;
+	
   
 	margin-left: 5 px;
 	margin-right: 5 px;
@@ -74,15 +73,23 @@ progress {
 
 
 .add-button {
-	border-radius: 50%;
-	
 	background-color: green;
+	width: 100 px;
+	height: 100 px;
+	border-radius: 50%;
+	float: right;
+	margin-right: 10%;
 	
-	margin-left: 20 px;
-	margin-right: 20 px;
-	margin-bottom: 20 px;
-	margin-top: 20 px;
+
 	
+}
+.add-button:focus {
+	outline:0;
+}
+
+.button:focus {
+	outline:0;
+
 }
 
 .grid {
@@ -91,35 +98,55 @@ progress {
 	justify-content: center;
 }
 
+
 .grid-section {
-	
-	
-	
-	grid-template-rows: 1fr 1fr 4fr;
+	display:grid;
+	grid-row-gap: 0.1em;
+	display: inline-table;
+	grid-auto-rows: minmax(150px, auto);
+	grid-template-columns: 1fr; 
+	box-sizing: border-width;
+	grid-row-gap: 15px;
 	
 }
 
 .sec1 {
+	grid-row-start: 1;
 	margin-left: 0%;
 	margin-right: 0%;
 	margin-bottom: 10%;
 	margin-top: 0%;
+	background-color: red;
 	}
 
 .sec2 {
+	
+	background-color: green;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-bottom: 5%;
 	margin-top: 0%;
 	}
 
-.sec3 {
+.sec3 
+
+	background-color: green;
 	margin-left: 0%;
 	margin-right: 0%;
 	margin-bottom: 5%;
 	margin-top: 10%;
 	}
 	
+
+
+.menu-button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+}
+
 
 </style>
 </head> 
@@ -128,32 +155,42 @@ progress {
 
 	<div class="topnav">
 		<div class="topnav-left">
-			<img src="tasker-logo.png" width="50" height="50" align="bottom">
+			<img src="images/tasker-logo.png" width="40" height="40" align="bottom">
 		</div>
 			
 		<div class="topnav-right">
-			<a href="#notifications">Notifications</a>
-			<a href="#mail">Mail</a>
-			<a href="#settings">Settings</a>
-			<a href="#help">Help</a>
+			<button class="menu-button">
+				<img src="images/bell-icon.png" width="40" height="40" align="bottom">
+			</button >
+			<button class="menu-button">
+				<img src="images/mail-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/settings-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/question-icon.png" width="40" height="40" align="bottom">
+			</button>
+			
 		</div>
 	</div>
 	
 	
 	<div class="grid">
 		<button class="button" >
-			<div class = "grid-section:">
-				<div class = "sec1">
+			<div class = "grid-section">
+				<div class = "sec1" >
+					
 					<header ><font size = "+3">SE350 Assignment  </font></header>
 					<hr size="6" width="100%" align="center" color="black">
 				</div>
-				<div class = "sec2">
+				<div class = "sec2"  >
 					<header > <p style="text-align:left;"> Leader: </p> </header>
 					<hr style="dash" color="black">
 
 				</div>
 				<div class = "sec3">
-				<header > Deadline: May 10th</header>
+					<header > Deadline: May 10th</header>
 				</div>
 				<progress   value="75" max="100"></progress>
 			</div> 
@@ -176,6 +213,10 @@ progress {
 		
 		</button>
 	</div>
+	
+	<button class="add-button" style="width: 75px; height: 75px;">
+		<img src="images/plus-icon.png" >
+	</button>
 	
 		
 		
