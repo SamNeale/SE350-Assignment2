@@ -90,7 +90,7 @@ border-radius: 20px;
 	
 }
 #table-main tr:nth-child(1){
-	background-color: #e8f3f4;
+	background-color: #6190A8;
 }
 
 .progress-wrapper {
@@ -99,6 +99,9 @@ border-radius: 20px;
 	text-align: center;
 }
 .progress-bar {
-	background-color: #55b2e0;
+	background-color: #58B1DD;
 	border-radius: 8px;
+	color: #455056;
+	padding: 3px;
+
 }

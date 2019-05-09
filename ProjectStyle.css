@@ -2,77 +2,20 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
-.topnav {
-  overflow: hidden;
-  background-color: #e8f3f4;
-}
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  
-  text-decoration: none;
-  font-size: 17px;
-}
-.topnav a.hover {
-  background-color: #ddd;
-  color: black;
-}
-.topnav a.active {
-  background-color: #4a6fa5;
-  color: white;
-}
-.topnav-right {
-  float: right;
-  padding-right: 25px;
-}
-.topnav-left {
-  float: left;
-  padding: 10px;
-  padding-left: 50px;
-}
 
-.button{
-    
-    margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 10%;
-	margin-top: 10%;
-    background-color: white;
-	border-radius: 20px;
-	width: 600px;
-	height: 400px;
-}
-
-progress {
-	background-color: #FDFEFE;
-	border: 0;
-	height: 18px;
-	border-radius: 9px;
-	margin-left: 20 px;
-	margin-right: 20 px;
-	margin-bottom: 20 px;
-	margin-top: 20 px;
-}
-
-.grid {
-	display: flex;
-		align-items: center;
-	justify-content: center;
-}
 
 
 
 .project-name {
-  height: 80px;
-  width: 350px;
-  background-color: #5D91AF;
-  border-radius: 8px;
+  height: 110px;
+  width: 360px;
+  background-color: #6190A8;
+  border-radius: 20px;
   margin: auto;
   color: white;
   text-align: center;
   font-size: 24px;
-  line-height: 80px;
+  line-height: 110px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -87,9 +30,9 @@ progress {
 	width: 55%;
 	border: 1px solid #ddd;
 	//background-color: #e8f3f4;
-	border-radius: 8px;
+	border-radius: 20px;
 	margin-left: 5%;
-	color: #4a4b4c;
+	color: #455056;
 	font-size: 24px;
 
 	display: inline-block; 
@@ -119,7 +62,7 @@ progress {
 .task-btn-active {
 	height: 20px;
 	width: 10%;
-	background-color: #5D91AF;
+	background-color: #6190A8;
 	border-radius: 10px;
 	color: white;
 	text-align: center;
@@ -161,7 +104,7 @@ progress {
 	background-color: white;
 }
 #tasks-table tr:nth-child(odd){
-	background-color: #e8f3f4;
+	background-color: #CDE7F4;
 }
 
 #tasks-table tr:hover {
@@ -186,19 +129,17 @@ progress {
 
 .members-title {
 	padding-top: 20px;
-	padding-bottom: 10px
+	padding-bottom: 10px;
 }
-
-
 
 
 .project-members {
 	height: 60%;
 	width: 20%;
-	background-color: #e8f3f4;
-	border-radius: 8px;
+	background-color: #CDE7F4;
+	border-radius: 20px;
 
-	color: #4a4b4c;
+	color: #455056;
 	font-size: 24px;
 	text-align: center;
 
