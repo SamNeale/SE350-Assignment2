@@ -8,15 +8,29 @@ body {
   height: 110px;
   width: 360px;
   background-color: #e8f3f4;
-  border-radius: 8px;
+  border-radius: 20px;
   margin: auto;
   color: #4a4b4c;
   text-align: center;
   font-size: 28px;
   line-height:110px;
+  
+  display: flex;
+  padding: 10px 20px 10px 30px;
 
 }
 
+.edit-button {
+	margin: 10px 10px 10px 10 px;
+	padding: 10px 10p 10px 10px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+
+	
+}
 
 
 
@@ -25,11 +39,14 @@ body {
 	height: 800px;
 	width: 800px;
 	background-color: #e8f3f4;
-	border-radius: 8px;
+	border-radius: 20px;
 	margin-left: auto; 
     margin-right: auto;
 	color: #4a4b4c;
 	font-size: 24px;
+	
+	grid-template-row: 0.5fr 0.5fr 1fr 0.5fr 1fr;
+	display: grid;
 }
 
 
@@ -132,6 +149,7 @@ body {
 	background-color: #a9d2d6;
 	border-radius: 8px;
 	margin-right: 10px;
+	margin-top: 0;
 	color: #4a4b4c;
 	font-size: 24px;
 	text-align: centre;
