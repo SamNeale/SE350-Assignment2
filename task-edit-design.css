@@ -22,7 +22,13 @@ body {
         white-space: normal;
   font-size: 12px;
 }
-	
+.text-check {
+    resize: none;
+	height: 14px;
+  width: 250px;
+   
+  font-size: 12px;
+}	
 
 .task-name {
   height: 110px;
@@ -48,10 +54,21 @@ body {
     border: none;
     cursor:pointer;
     overflow: hidden; 
-
 	
 }
-
+.edit-plus-skills {
+	margin: 10px 10px 10px 10 px;
+	padding: 0px 0px 0px 20px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+	float: right;
+	
+	
+	
+}
 
 
 /* Task main section */
@@ -99,6 +116,28 @@ body {
 
 .edit-member-photo {
 	width: 80px;
+	border-radius: 50%;
+	display: inline-block; 
+	margin-right: 10px;
+	float: right;
+
+}
+.edit-plus-member {
+	margin: 10px 10px 10px 10 px;
+	padding: 0px 0px 0px 20px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+	float: right;
+	
+	
+	
+}
+
+.edit-plus {
+	width: 30px;
 	border-radius: 50%;
 	display: inline-block; 
 	margin-right: 10px;
