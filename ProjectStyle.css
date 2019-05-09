@@ -162,7 +162,7 @@ border-radius: 20px;
 .project-tasks {
 	padding-left: 50px;
 	padding-right: 50px;
-	height: 450px; 
+	height: 60%; 
 	width: 55%;
 	border: 1px solid #ddd;
 	//background-color: #e8f3f4;
@@ -273,7 +273,7 @@ border-radius: 20px;
 
 
 .project-members {
-	height: 450px;
+	height: 60%;
 	width: 20%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
