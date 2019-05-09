@@ -38,26 +38,27 @@
 
 	<br>
 
-	<div class="task-name">
+	<h3 class="task-name">
 		
 		303 Project: Write Report
 		<button class="edit-button"> <a href="task-edit.html" style="text-decoration:none">
 			<img src="images/edit-icon.png" width="30" height="30" align="bottom">
 		</a></button>
-		
-	</div>
+	</h3>
+
+
 
 	<br>
 
 	<div class="task-breakdown">
-		<figure class="catagories" gird-row="1">    
-			<figcaption class="breakdown-heading">Assigned to:</figcaption>  
+		<div class="catagories" gird-row="1">    
+			<div class="breakdown-heading">Assigned to:</div>  
 			<img class="task-member-photo" src="images/members/donald.jpg" align=right>
 			<img class="task-member-photo" src="images/members/regina.jpg" align=right>  
-		</figure> 
+		</div> 
 		
-		<figure class="catagories" grid-row="2">    
-			<figcaption class="breakdown-heading">Status:</figcaption>  
+		<div class="catagories" grid-row="2">    
+			<div class="breakdown-heading">Status:</div>  
 			<div class="dropdown" style="float:right;">
 				<button class="dropbtn">To be started</button>
 				<div class="dropdown-content">
@@ -66,10 +67,10 @@
 					<a href="#">Finished</a>
 				</div>
 			</div>
-		</figure> 
+		</div> 
 		
-		<figure class="catagories" grid-row="3">    
-			<figcaption class="breakdown-heading">Description:</figcaption>    
+		<div class="catagories" grid-row="3">    
+			<div class="breakdown-heading">Description:</div>    
 			<div class="description">
 				<p>
 				You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct
@@ -78,27 +79,42 @@
 				formal report.
 				</p>
 			</div>
-		</figure>
+		</div>
 		
-		<figure class="catagories" grid-row="4">    
-			<figcaption class="breakdown-heading">Skills:</figcaption>  
+		<div class="catagories" grid-row="4">    
+			<div class="breakdown-heading">Skills:</div>  
 		
-			<figure class="skills">    
-				<figcaption class="reg-text">Creativity</figcaption>    
-			</figure> 
-			<figure class="skills">    
-				<figcaption class="reg-text">Writing</figcaption>    
-			</figure>
-		</figure> 
-		
-		<figure class="catagories" grid-row="5">    
-			<figcaption class="breakdown-heading">Subtasks:</figcaption>
-			<div class="description" height="40">
-				
-				  <input type="checkbox" name="sub-tasks" value="exec"> Executive Summary<br>
-				  <input type="checkbox" name="sub-tasks" value="ab"> Abstract<br>
-				  <input type="checkbox" name="sub-tasks" value="sec1"> Section 1<br>
+			<div class="skills">    
+				<div class="reg-text">Creativity</div>    
+			</div> 
+			<div class="skills">    
+				<div class="reg-text">Writing</div>    
 			</div>
+		</div> 
+		
+		<div class="catagories" grid-row="5">    
+			<div class="breakdown-heading">Subtasks:</div>
+			
+		<table id="subtasks-table">
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Introduction</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Stakeholder analysis</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Project definition</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Options analysis</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Best fit option</td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" name="sub-tasks" />Conclusion</td>
+          </tr>
+        </table>
 		</figure> 
 	</div>
 	 

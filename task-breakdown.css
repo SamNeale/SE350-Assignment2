@@ -5,23 +5,22 @@ body {
 
 /* Task header */
 .task-name {
-  height: 110px;
-  width: 360px;
+    height: 110px;
+  width: 380px;
   background-color: #6190A8;
   border-radius: 20px;
   margin: auto;
-  color: #4a4b4c;
+  color: white;
   text-align: center;
-  font-size: 28px;
-  line-height:110px;
-  
-  display: flex;
-  padding: 10px 20px 10px 30px;
+  font-size: 24px;
+  line-height: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
 .edit-button {
-	margin: 10px 10px 10px 10 px;
+	margin: 10px 10px 10px 10px;
 	padding: 10px 10p 10px 10px;
 	background-color: Transparent;
     background-repeat:no-repeat;
@@ -36,7 +35,7 @@ body {
 
 /* Task main section */
 .task-breakdown {
-	height: 800px;
+	height: 700px;
 	width: 800px;
 	background-color: #CDE7F4;
 	border-radius: 20px;
@@ -45,23 +44,23 @@ body {
 	color: #4a4b4c;
 	font-size: 24px;
 	
-	grid-template-row: 0.5fr 0.5fr 1fr 0.5fr 1fr;
+	grid-template-rows: 15% 10% 22% 10% 10%;
+
+	//0.5fr 0.5fr 1fr 0.5fr 1fr;
 	display: grid;
 }
 
 
 .catagories {
 	font-size: 24px;
-	//margin: 0 auto;
-	//text-align: center;
 	padding: 20px;
 }
 
 .breakdown-heading {
 	font-size: 24px;
 	padding-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline-block;
 }
 
@@ -83,12 +82,13 @@ body {
 .dropbtn {
 	float: centre;
   background-color: #6190A8;
-  color: #4a4b4c;
+  color: white;
  	height: 30px;
 	width: 160px;
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  margin-top: 10px;
 }
 
 
@@ -134,7 +134,7 @@ body {
 .description{
 	float:right;
 	border-style: solid;
-	border-color: #a9d2d6;
+	border-color: #AFC2CC;
 	border-radius: 8px;
 	font-size: 18px;
 	padding: 1%;
@@ -143,16 +143,17 @@ body {
 
 .skills {
 	float: right;
-	padding-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 30px;
 	width: 110px;
 	background-color: #6190A8;
 	border-radius: 8px;
 	margin-right: 10px;
-	margin-top: 0;
-	color: #4a4b4c;
+	margin-top: 10px;
+	color: white;
 	font-size: 24px;
-	text-align: centre;
+	text-align: center;
 	display: inline-block; 
 }
 
@@ -162,5 +163,45 @@ body {
 	display: inline-block;
 }
 
+#subtasks-table {
+	width: 96%;
+	margin-bottom: 16px;
+	font-size: 16px;
+	border-style: solid;
+	border-color: #6190A8;
+	border-radius: 8px;
+	margin-right: 2%;
+	margin-left: 2%;
+
+}
+
+#subtasks-table tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+
+#subtasks-table tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+#subtasks-table tr:first-child th:first-child {
+    border-top-left-radius: 8px;
+}
+
+#subtasks-table tr:first-child th:last-child {
+    border-top-right-radius: 8px;
+}
+
+#subtasks-table tr:nth-child(even){
+	background-color: white;
+}
+#subtasks-table tr:nth-child(odd){
+	background-color: #CDE7F4;
+}
+
+#subtasks-table td {
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 
