@@ -62,85 +62,6 @@ progress {
 }
 
 
-.add-button {
-	background-color: #e8f3f4;
-	width: 100 px;
-	height: 100 px;
-	border-radius: 50%;
-	float: right;
-	margin-right: 10%;
-	
-	
-}
-.add-button:focus {
-	outline:0;
-}
-
-.button:focus {
-	outline:0;
-}
-
-.menu-button{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right:  10px;
-    padding-left: 10px;
-
-
-}
-.member-photo-main {
-	width: 15%;
-	border-radius: 50%;
-	display: inline-block; 
-	margin-left = 50%;
-
-}
-
-.member-photo2-main {
-	width: 15%;
-	border-radius: 50%;
-	display: inline-block; 
-	
-}
-
-#table-main {
-border-radius: 20px;
-  width: 350px;
-  height: 375px;
-
-  padding: 0px;
-  margin: 0px;
-	border-collapse: collapse;
-	width: 100%;
-	margin-bottom: 16px;
-	font-size: 18px;
-}
-
-#table-main td, #table-main th {
-	//text-align: left;
-  //border: 1px solid #ddd;
-  padding: 4px;
-  on-click: white;
-  
-}
-
-#table-main th {
-border-radius: 20px;
-	text-align: center;
-	padding-top: 12px;
-    padding-bottom: 12px;
-	on-click: white;
-
-	
-}
-#table-main tr:nth-child(1){
-	background-color: #e8f3f4;
-}
 
 .project-name {
   height: 80px;
@@ -261,7 +182,6 @@ border-radius: 20px;
 
 
 }
-
 
 
 .members-title {
