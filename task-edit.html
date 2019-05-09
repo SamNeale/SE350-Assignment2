@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="task-edit-design.css">
+	<link rel="stylesheet" href="topnav.css">
+	
+	<title>Tasker</title>
+	
+</head> 
+
+
+<body>
+	<div class="topnav">
+		<div class="topnav-left">
+			<img class= "logo-image" src="images/tasker-logo.png">
+		</div>
+			
+		<div class="topnav-right">
+			<button class="menu-button">
+				<img src="images/bell-icon.png" width="40" height="40" align="bottom">
+			</button >
+			<button class="menu-button">
+				<img src="images/mail-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/settings-icon.png" width="40" height="40" align="bottom">
+			</button>
+			<button class="menu-button">
+				<img src="images/question-icon.png" width="40" height="40" align="bottom">
+			</button>
+		</div>
+	</div>
+
+	<br>
+
+	<div class="task-name">
+		
+		<textarea class="text-header" >
+			303 Project: Write Report
+		</textarea>
+		
+		<button class="edit-button">
+			<img src="images/edit-icon.png" width="30" height="30" align="bottom">
+		</button>
+		
+	</div>
+
+	<br>
+
+	<div class="task-breakdown">
+		<figure class="catagories" gird-row="1">    
+			<figcaption class="breakdown-heading">Assigned to:</figcaption>  
+			<img class="edit-member-photo" src="images/plus-icon.png" align=right>	
+			<img class="edit-member-photo" src="images/members/donald.jpg" align=right>
+			<img class="edit-member-photo" src="images/members/regina.jpg" align=right> 
+					
+		</figure> 
+		
+		<figure class="catagories" grid-row="2">    
+			<figcaption class="breakdown-heading">Status:</figcaption>  
+			<div class="dropdown" style="float:right;">
+				<button class="dropbtn">To be started</button>
+				<div class="dropdown-content">
+					<a href="#">To be started</a>
+					<a href="#">In progress</a>
+					<a href="#">Finished</a>
+				</div>
+			</div>
+		</figure> 
+		
+		<figure class="catagories" grid-row="3">    
+			<figcaption class="breakdown-heading">Description:</figcaption>    
+			<div class="description">
+				<textarea class="desc-text"> You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct a  feasibility  study  of upscaling the manufacturing and roll-out of the biospife for ZESPRI’s international markets. Summarise your results into a formal report.</textarea>
+			</div>
+		</figure>
+		
+		<figure class="catagories" grid-row="4">    
+			<figcaption class="breakdown-heading">Skills: </figcaption>  
+		
+			<figure class="skills">    
+				<figcaption class="reg-text">Creativity<button class="cross-button"><img class="cross-img" align=right src="images/x-icon2.png"> </button></figcaption>    
+			</figure> 
+			<figure class="skills">    
+				<figcaption class="reg-text">Writing<button class="cross-button"><img class="cross-img" align=right src="images/x-icon2.png"> </button></</figcaption>    
+			</figure>
+		</figure> 
+		
+		<figure class="catagories" grid-row="5">    
+			<figcaption class="breakdown-heading">Subtasks:</figcaption>
+			<div class="description" height="40">
+				
+				  <input type="checkbox" name="sub-tasks" value="exec"> Executive Summary<br>
+				  <input type="checkbox" name="sub-tasks" value="ab"> Abstract<br>
+				  <input type="checkbox" name="sub-tasks" value="sec1"> Section 1<br>
+			</div>
+		</figure> 
+	</div>
+	 
+</body>
+</html>
