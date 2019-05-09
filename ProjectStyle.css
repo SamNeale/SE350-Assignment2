@@ -10,7 +10,7 @@ body {
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  //padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -24,10 +24,11 @@ body {
 }
 .topnav-right {
   float: right;
+  padding-right: 25px;
 }
 .topnav-left {
   float: left;
-  padding: 15px;
+  padding: 10px;
   padding-left: 50px;
 }
 
@@ -84,18 +85,26 @@ progress {
     border: none;
     cursor:pointer;
     overflow: hidden; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:  10px;
+    padding-left: 10px;
+
+
 }
 
 .project-name {
-  height: 90px;
-  width: 220px;
+  height: 80px;
+  width: 350px;
   background-color: #e8f3f4;
   border-radius: 8px;
   margin: auto;
   color: #4a4b4c;
   text-align: center;
-  font-size: 28px;
-  line-height: 90px;
+  font-size: 24px;
+  line-height: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 
@@ -104,14 +113,20 @@ progress {
 .project-tasks {
 	padding-left: 50px;
 	padding-right: 50px;
-	height: 500px; 
+	height: 450px; 
 	width: 55%;
-	background-color: #e8f3f4;
+	border: 1px solid #ddd;
+	//background-color: #e8f3f4;
 	border-radius: 8px;
 	margin-left: 5%;
 	color: #4a4b4c;
 	font-size: 24px;
+
 	display: inline-block; 
+}
+
+.tasks-title {
+	padding-top: 20px;
 }
 
 .tasks-btn {
@@ -122,8 +137,8 @@ progress {
 		text-decoration: none;
 		font-size: 70%;
 		text-align: center;
-		margin-top: 16px;
-		margin-bottom: 16px;
+		margin-top: 10px;
+		margin-bottom: 10px;
 
 }
 
@@ -144,7 +159,7 @@ progress {
 	border-collapse: collapse;
 	width: 100%;
 	margin-bottom: 16px;
-	font-size: 18px;
+	font-size: 16px;
 	//border-radius: 50px;
 	padding-left: 30px;
 }
@@ -176,7 +191,7 @@ progress {
 	background-color: white;
 }
 #tasks-table tr:nth-child(odd){
-	background-color: #dbe9ee;
+	background-color: #e8f3f4;
 }
 
 #tasks-table tr:hover {
@@ -186,12 +201,12 @@ progress {
 
 #tasks-table td, th{
 	padding-left: 20px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 .assignee-photo {
-	width: 50px;
+	width: 35px;
 	border-radius: 50%;
 	vertical-align: middle;
 
@@ -200,10 +215,17 @@ progress {
 
 
 
+.members-title {
+	padding-top: 20px;
+	padding-bottom: 10px
+}
+
+
+
 
 .project-members {
-	height: 500px;
-	width: 22%;
+	height: 450px;
+	width: 20%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
 
@@ -216,21 +238,28 @@ progress {
 
 	float: right;
 	margin-right: 5%;
+	//overflow: scroll;
 
-	overflow: scroll;
+
+	
 
 }
+
+.members {
+	height: 390px;
+	width: 100%;
+	overflow: scroll;
+}
+
 
 
 .member {
 	margin-bottom: 0;
 	text-align: left;
-
-
 }
 
 .member-photo {
-	width: 50%;
+	width: 45%;
 	border-radius: 50%;
 	display: inline-block; 
 
