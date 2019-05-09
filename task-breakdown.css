@@ -10,7 +10,7 @@ body {
   background-color: #6190A8;
   border-radius: 20px;
   margin: auto;
-  color: #4a4b4c;
+  color: white;
   text-align: center;
   font-size: 28px;
   line-height:110px;
@@ -83,7 +83,7 @@ body {
 .dropbtn {
 	float: centre;
   background-color: #6190A8;
-  color: #4a4b4c;
+  color: white;
  	height: 30px;
 	width: 160px;
   border-radius: 8px;
@@ -150,7 +150,7 @@ body {
 	border-radius: 8px;
 	margin-right: 10px;
 	margin-top: 0;
-	color: #4a4b4c;
+	color: white;
 	font-size: 24px;
 	text-align: centre;
 	display: inline-block; 
@@ -167,7 +167,7 @@ body {
 	margin-bottom: 16px;
 	font-size: 16px;
 	border-style: solid;
-	border-color: #a9d2d6;
+	border-color: #6190A8;
 	border-radius: 8px;
 }
 
@@ -191,7 +191,7 @@ body {
 	background-color: white;
 }
 #subtasks-table tr:nth-child(odd){
-	background-color: #e8f3f4;
+	background-color: #CDE7F4;
 }
 
 #subtasks-table td {
