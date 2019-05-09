@@ -395,3 +395,13 @@ border-radius: 20px;
 	background-color: #a9d2d6;
 }
 
+.description{
+	float:right;
+	border-style: solid;
+	border-color: #a9d2d6;
+	border-radius: 8px;
+	font-size: 18px;
+	padding: 1%;
+	width: 500px;
+}
+	
