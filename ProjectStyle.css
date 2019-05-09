@@ -44,17 +44,6 @@ body {
 	height: 400px;
 }
 
-progress {
-	background-color: #FDFEFE;
-	border: 0;
-	height: 18px;
-	border-radius: 9px;
-	margin-left: 20 px;
-	margin-right: 20 px;
-	margin-bottom: 20 px;
-	margin-top: 20 px;
-}
-
 .grid {
 	display: flex;
 		align-items: center;
@@ -83,8 +72,9 @@ progress {
 .project-tasks {
 	padding-left: 50px;
 	padding-right: 50px;
-	height: 60%; 
-	width: 55%;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	
 	border: 1px solid #ddd;
 	//background-color: #e8f3f4;
 	border-radius: 8px;
@@ -186,15 +176,15 @@ progress {
 
 .members-title {
 	padding-top: 20px;
-	padding-bottom: 10px
+	padding-bottom: 10px;
 }
 
 
 
 
 .project-members {
-	height: 60%;
-	width: 20%;
+	grid-column-start: 3;
+	grid-column-end: 4;
 	background-color: #e8f3f4;
 	border-radius: 8px;
 
@@ -207,31 +197,20 @@ progress {
 
 	float: right;
 	margin-right: 5%;
-	//overflow: scroll;
-
-
-	
-
 }
 
 .members {
 	height: 390px;
 	width: 100%;
-	overflow: scroll;
+	overflow-y: scroll;
 }
 
-
-
-.member {
-	margin-bottom: 0;
-	text-align: left;
-}
 
 .member-photo {
 	width: 45%;
 	border-radius: 50%;
-	display: inline-block; 
-
+	display: inline-block;
+	box-shadow: 2px 2px grey;
 }
 
 .member-photo-caption {
@@ -242,3 +221,9 @@ progress {
 	padding-top: 25%;
 	text-align: left;
 }
+.grid-overall {
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 5%;
+}
+
