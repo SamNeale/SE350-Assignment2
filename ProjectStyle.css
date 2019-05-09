@@ -57,7 +57,7 @@ progress {
 
 .grid {
 	display: flex;
-	align-items: center;
+		align-items: center;
 	justify-content: center;
 }
 
@@ -143,8 +143,8 @@ border-radius: 20px;
 }
 
 .project-name {
-  height: 30%;
-  width: 30%;
+  height: 80px;
+  width: 350px;
   background-color: #e8f3f4;
   border-radius: 8px;
   margin: auto;
@@ -158,10 +158,11 @@ border-radius: 20px;
 
 
 
+
 .project-tasks {
 	padding-left: 50px;
 	padding-right: 50px;
-	height: 500px; 
+	height: 60%; 
 	width: 55%;
 	border: 1px solid #ddd;
 	//background-color: #e8f3f4;
@@ -206,9 +207,10 @@ border-radius: 20px;
 #tasks-table {
 	border-collapse: collapse;
 	width: 100%;
-	height: 80%;
-	margin-bottom: 32px;
+	margin-bottom: 16px;
 	font-size: 16px;
+	//border-radius: 50px;
+	padding-left: 30px;
 }
 
 #tasks-table tr:last-child td:first-child {
@@ -257,6 +259,7 @@ border-radius: 20px;
 	border-radius: 50%;
 	vertical-align: middle;
 
+
 }
 
 
@@ -268,9 +271,9 @@ border-radius: 20px;
 
 
 
+
 .project-members {
-	height: 500px;
-	//min-width: 200px;
+	height: 60%;
 	width: 20%;
 	background-color: #e8f3f4;
 	border-radius: 8px;
@@ -287,10 +290,12 @@ border-radius: 20px;
 	//overflow: scroll;
 
 
+	
+
 }
 
 .members {
-	height: 86%;
+	height: 390px;
 	width: 100%;
 	overflow: scroll;
 }
@@ -300,7 +305,6 @@ border-radius: 20px;
 .member {
 	margin-bottom: 0;
 	text-align: left;
-	width: 80%;
 }
 
 .member-photo {
@@ -311,17 +315,10 @@ border-radius: 20px;
 }
 
 .member-photo-caption {
-	font-size: 16px;
+	font-size: 18px;
 	//padding-left: 20px;
 	//display: inline-block;
 	float: right;
 	padding-top: 25%;
 	text-align: left;
 }
-
-
-
-
-
-	
-	
