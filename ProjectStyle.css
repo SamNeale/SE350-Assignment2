@@ -66,10 +66,10 @@ progress {
 .project-name {
   height: 80px;
   width: 350px;
-  background-color: #e8f3f4;
+  background-color: #5D91AF;
   border-radius: 8px;
   margin: auto;
-  color: #4a4b4c;
+  color: white;
   text-align: center;
   font-size: 24px;
   line-height: 80px;
@@ -119,7 +119,7 @@ progress {
 .task-btn-active {
 	height: 20px;
 	width: 10%;
-	background-color: #4a6fa5;
+	background-color: #5D91AF;
 	border-radius: 10px;
 	color: white;
 	text-align: center;
