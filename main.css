@@ -46,19 +46,7 @@ progress {
 	outline:0;
 }
 
-.menu-button{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right:  10px;
-    padding-left: 10px;
 
-
-}
 
 
 .member-photo-main {
