@@ -7,7 +7,7 @@ body {
 .task-name {
   height: 110px;
   width: 360px;
-  background-color: #e8f3f4;
+  background-color: #6190A8;
   border-radius: 20px;
   margin: auto;
   color: #4a4b4c;
@@ -38,7 +38,7 @@ body {
 .task-breakdown {
 	height: 1000px;
 	width: 800px;
-	background-color: #e8f3f4;
+	background-color: #CDE7F4;
 	border-radius: 20px;
 	margin-left: auto; 
     margin-right: auto;
@@ -82,7 +82,7 @@ body {
 /* Status Dropdown */
 .dropbtn {
 	float: centre;
-  background-color: #a9d2d6;
+  background-color: #6190A8;
   color: #4a4b4c;
  	height: 30px;
 	width: 160px;
@@ -146,7 +146,7 @@ body {
 	padding-left: 40px;
 	height: 30px;
 	width: 110px;
-	background-color: #a9d2d6;
+	background-color: #6190A8;
 	border-radius: 8px;
 	margin-right: 10px;
 	margin-top: 0;
