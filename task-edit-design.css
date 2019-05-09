@@ -4,6 +4,26 @@ body {
 }
 
 /* Task header */
+
+.text-header {
+    resize: none;
+	height: 90px;
+  width: 340px;
+   display: flex;
+  text-align: left;
+  font-size: 22px;
+}
+
+.desc-text{
+	 resize: none;
+	height: 100px;
+  width: 490px;
+  text-align: justify;
+        white-space: normal;
+  font-size: 12px;
+}
+	
+
 .task-name {
   height: 110px;
   width: 360px;
@@ -64,8 +84,20 @@ body {
 	padding-bottom: 5px;
 	display: inline-block;
 }
+.cross-img{
+	 
+	height: 15px;
+	width: 15px;
+}
+.cross-button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+}
 
-.task-member-photo {
+.edit-member-photo {
 	width: 80px;
 	border-radius: 50%;
 	display: inline-block; 
@@ -161,6 +193,3 @@ body {
 	text-align: centre;
 	display: inline-block;
 }
-
-
-
