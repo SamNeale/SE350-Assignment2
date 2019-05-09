@@ -35,7 +35,7 @@ body {
 
 /* Task main section */
 .task-breakdown {
-	height: 1000px;
+	height: 700px;
 	width: 800px;
 	background-color: #CDE7F4;
 	border-radius: 20px;
@@ -44,23 +44,23 @@ body {
 	color: #4a4b4c;
 	font-size: 24px;
 	
-	grid-template-row: 0.5fr 0.5fr 1fr 0.5fr 1fr;
+	grid-template-rows: 15% 10% 22% 10% 10%;
+
+	//0.5fr 0.5fr 1fr 0.5fr 1fr;
 	display: grid;
 }
 
 
 .catagories {
 	font-size: 24px;
-	//margin: 0 auto;
-	//text-align: center;
 	padding: 20px;
 }
 
 .breakdown-heading {
 	font-size: 24px;
 	padding-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline-block;
 }
 
@@ -88,6 +88,7 @@ body {
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  margin-top: 10px;
 }
 
 
@@ -133,7 +134,7 @@ body {
 .description{
 	float:right;
 	border-style: solid;
-	border-color: #a9d2d6;
+	border-color: #AFC2CC;
 	border-radius: 8px;
 	font-size: 18px;
 	padding: 1%;
@@ -142,16 +143,17 @@ body {
 
 .skills {
 	float: right;
-	padding-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 30px;
 	width: 110px;
 	background-color: #6190A8;
 	border-radius: 8px;
 	margin-right: 10px;
-	margin-top: 0;
+	margin-top: 10px;
 	color: white;
 	font-size: 24px;
-	text-align: centre;
+	text-align: center;
 	display: inline-block; 
 }
 
@@ -162,12 +164,15 @@ body {
 }
 
 #subtasks-table {
-	width: 100%;
+	width: 96%;
 	margin-bottom: 16px;
 	font-size: 16px;
 	border-style: solid;
 	border-color: #6190A8;
 	border-radius: 8px;
+	margin-right: 2%;
+	margin-left: 2%;
+
 }
 
 #subtasks-table tr:last-child td:first-child {
