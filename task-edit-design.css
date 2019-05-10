@@ -309,3 +309,32 @@ textarea:focus {
 	width: 250px;
 	font-size: 12px;
 }	
+.add-subtask {
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	border-bottom: 1px solid #AFC2CC;
+	border-right: 1px solid #AFC2CC;
+	border-top: 0;
+	border-left: 0;
+	border-radius: 50%;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	
+}
+.add-subtask:hover {
+	cursor: pointer;
+}
+.add-subtask:focus {
+	outline: 0;
+	border-top: 1px solid #AFC2CC;
+	border-left: 1px solid #AFC2CC;
+	border-bottom: 0;
+	border-right: 0;
+}
+.st-add {
+	padding: 0px 0px 0px 0px;
+	width: 40%;
+	height: 100%;
+}
+	
