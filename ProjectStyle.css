@@ -102,14 +102,19 @@ body {
 
 #tasks-table tr:nth-child(even){
 	background-color: white;
+
 }
 #tasks-table tr:nth-child(odd){
 	background-color: #CDE7F4;
+
 }
 
+
+
 #tasks-table tr:hover {
-	background-color: #4a6fa5;
+	background-color: #58B1DD; 
 	color: white;
+
 }
 
 #tasks-table td, th{
