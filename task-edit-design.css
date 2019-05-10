@@ -4,9 +4,9 @@ body {
 }
 
 .title {
-	margin: 28px;
+	margin-top: 20px;
 	resize: none;
-	height: 50px;
+	height: 60px;
 	width: 250px;
 	text-align: center;
 	font-size: 20px;
@@ -39,32 +39,31 @@ body {
 }
 
 .save-button {
-	float: right;
-		margin: 55px 20px 20px 120px;
-	width:50px;
-	height: 50px;
-	
-	background-color: Transparent;
-    background-repeat:no-repeat;
+	padding: 10px 10p 10px 10px;
+	margin-left: 15px;
+	line-height: 35px;
+	background-color:Transparent;
+    background-repeat: no-repeat;
     border: none;
     cursor:pointer;
-    overflow: hidden; 
+    overflow: hidden;
+    //display: inline; 
     
-	
 }
 
 
 .back-button {
-	float: left;
-	margin: 55px 20px 20px 120px;
+	line-height: 50px;
 	width:50px;
 	height: 50px;
+	margin-right: 20px;
 	
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden; 
+    //display: inline;
 }
 
 
