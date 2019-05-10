@@ -3,158 +3,95 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Task header */
-
-.text-header {
-    resize: none;
-	height: 80px;
-  width: 340px;
-   display: flex;
-  text-align: left;
-  font-size: 20px;
-}
-
-.desc-text{
-	 resize: none;
-	height: 100px;
-  width: 490px;
-  text-align: justify;
-        white-space: normal;
-  font-size: 12px;
-}
-.text-check {
-    resize: none;
-	height: 14px;
-  width: 250px;
-   
-  font-size: 12px;
-}	
-
-.task-header-bar {
+.title {
+	margin: 28px;
+	resize: none;
+	height: 50px;
+	width: 250px;
 	text-align: center;
+	font-size: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 20px;
+	border: none;
 }
 
+/* Task header */
 .task-name {
   height: 110px;
-  width: 360px;
+  width: 380px;
   background-color: #6190A8;
   border-radius: 20px;
   margin: auto;
-  color: #4a4b4c;
+  color: white;
   text-align: center;
-  font-size: 28px;
-  line-height:110px;
-   padding: 10px 20px 10px 30px;
-   display: inline-block;
-}
+  font-size: 24px;
+  line-height: 110px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 
-.back-button {
-	line-height: 50px;
-	width:50px;
-	height: 50px;
-	margin-right: 20px;
-	
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-    display: inline-block;
 }
 
 .edit-button {
 	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
+	padding: 10px 10p 10px 10px;
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
-    overflow: hidden; 
-    display: inline-block;
+    overflow: hidden;
+	
 }
 
-.edit-plus-skills {
-	margin: 10px 10px 10px 10 px;
-	padding: 0px 0px 0px 20px;
+
+.back-button {
+	float: left;
+	margin: 55px 20px 20px 120px;
+	width:50px;
+	height: 50px;
+	
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden; 
-	float: right;
-	
-	
-	
 }
+
+
+
 
 
 /* Task main section */
 .task-breakdown {
-	height: 1000px;
+	height: 600px;
 	width: 800px;
 	background-color: #CDE7F4;
 	border-radius: 20px;
 	margin-left: auto; 
     margin-right: auto;
+    margin-bottom: 30px;
 	color: #4a4b4c;
 	font-size: 24px;
-	
-	grid-template-row: 0.5fr 0.5fr 1fr 0.5fr 1fr;
+	grid-template-rows: 15% 9% 20% 9% 10%;
+
 	display: grid;
 }
 
 
 .catagories {
 	font-size: 24px;
-	//margin: 0 auto;
-	//text-align: center;
 	padding: 20px;
 }
 
 .breakdown-heading {
 	font-size: 24px;
 	padding-left: 20px;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	display: inline-block;
 }
-.cross-img{
-	 
-	height: 15px;
-	width: 15px;
-}
-.cross-button{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-}
 
-.edit-member-photo {
+.task-member-photo {
 	width: 80px;
-	border-radius: 50%;
-	display: inline-block; 
-	margin-right: 10px;
-	float: right;
-
-}
-.edit-plus-member {
-	margin: 10px 10px 10px 10 px;
-	padding: 0px 0px 0px 20px;
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden; 
-	float: right;
-	
-	
-	
-}
-
-.edit-plus {
-	width: 30px;
 	border-radius: 50%;
 	display: inline-block; 
 	margin-right: 10px;
@@ -171,12 +108,13 @@ body {
 .dropbtn {
 	float: centre;
   background-color: #6190A8;
-  color: #4a4b4c;
+  color: white;
  	height: 30px;
 	width: 160px;
   border-radius: 8px;
   font-size: 18px;
   border: none;
+  margin-top: 10px;
 }
 
 
@@ -222,31 +160,40 @@ body {
 .description{
 	float:right;
 	border-style: solid;
-	border-color: #a9d2d6;
+	border-color: #AFC2CC;
 	border-radius: 8px;
-	font-size: 18px;
-	padding: 1%;
+	font-size: 17px;
+	padding: 1.5%;
 	width: 500px;
+	height: 80px;
+	font-style: italic;
+	background-color: white;
+	resize: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+textarea:focus {
+	outline: 0;
 }
 
 .skills {
 	float: right;
-	padding-left: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
 	height: 30px;
 	width: 110px;
 	background-color: #6190A8;
 	border-radius: 8px;
 	margin-right: 10px;
-	margin-top: 0;
-	color: #4a4b4c;
+	margin-top: 10px;
+	color: white;
 	font-size: 24px;
-	text-align: centre;
+	text-align: center;
 	display: inline-block; 
 }
 
 .reg-text {
 	font-size: 18px;
-	text-align: centre;
+	text-align: center;
 	display: inline-block;
 }
 
@@ -256,7 +203,10 @@ body {
 	font-size: 16px;
 	/*border-style: solid;
 	border-color: #6190A8;
-	border-radius: 8px;*/
+	border-radius: 8px;
+	margin-right: 2%;
+	margin-left: 2%;*/
+
 }
 
 #subtasks-table tr:last-child td:first-child {
@@ -297,3 +247,56 @@ body {
 	border-color: #6190A8;
 	border-radius: 8px;	
 }
+
+.scrollable {
+	overflow-y: scroll;
+}
+
+.edit-plus-member {
+	//margin: 10px 10px 10px 10px;
+	padding: 12px 12px 12px 12px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+	border-top: 0;
+	border-left: 0;
+    border-bottom: 1px solid #AFC2CC;
+	border-right: 1px solid #AFC2CC;
+	border-radius: 50%;
+    cursor:pointer;
+    overflow: hidden; 
+	float: right;	
+}
+.edit-plus-member:focus {
+	outline: 0;
+	border-top: 1px solid #AFC2CC;
+	border-left: 1px solid #AFC2CC;
+	border-bottom: 0;
+	border-right: 0;
+}
+.edit-plus-skills {
+	padding: 10px 10px 10px 10px;
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+	float: right;
+	border-top: 0;
+	border-left: 0;
+    border-bottom: 1px solid #AFC2CC;
+	border-right: 1px solid #AFC2CC;
+	border-radius: 50%;
+}
+.edit-plus-skills:focus {
+	outline: 0;
+	border-top: 1px solid #AFC2CC;
+	border-left: 1px solid #AFC2CC;
+	border-bottom: 0;
+	border-right: 0;
+}
+.text-check {
+    resize: none;
+	height: 14px;
+	width: 250px;
+	font-size: 12px;
+}	
