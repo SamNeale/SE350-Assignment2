@@ -98,6 +98,10 @@ body {
 	display: inline-block;
 }
 
+.skills-heading {
+	margin-right: 35%;
+}
+
 .task-member-photo {
 	width: 80px;
 	border-radius: 50%;
@@ -184,7 +188,6 @@ textarea:focus {
 }
 
 .skills {
-	float: right;
 	padding-left: 20px;
 	padding-right: 20px;
 	height: 30px;
@@ -265,43 +268,31 @@ textarea:focus {
 	padding: 12px 12px 12px 12px;
 	background-color: Transparent;
     background-repeat:no-repeat;
-	border-top: 0;
-	border-left: 0;
-    border-bottom: 1px solid #AFC2CC;
-	border-right: 1px solid #AFC2CC;
-	border-radius: 50%;
+    border: none;
     cursor:pointer;
     overflow: hidden; 
 	float: right;	
 }
-.edit-plus-member:focus {
-	outline: 0;
-	border-top: 1px solid #AFC2CC;
-	border-left: 1px solid #AFC2CC;
-	border-bottom: 0;
-	border-right: 0;
+
+
+.skills-breakdown {
 }
+
+
+
 .edit-plus-skills {
-	padding: 10px 10px 10px 10px;
+
+	padding: 12px 12px 12px 12px;
 	background-color: Transparent;
     background-repeat:no-repeat;
     border: none;
     cursor:pointer;
     overflow: hidden; 
-	float: right;
-	border-top: 0;
-	border-left: 0;
-    border-bottom: 1px solid #AFC2CC;
-	border-right: 1px solid #AFC2CC;
-	border-radius: 50%;
+    display: inline-block;
+	//float: right;
+
 }
-.edit-plus-skills:focus {
-	outline: 0;
-	border-top: 1px solid #AFC2CC;
-	border-left: 1px solid #AFC2CC;
-	border-bottom: 0;
-	border-right: 0;
-}
+
 .text-check {
     resize: none;
 	height: 14px;
@@ -311,14 +302,10 @@ textarea:focus {
 .add-subtask {
 	background-color: Transparent;
     background-repeat:no-repeat;
-	border-bottom: 1px solid #AFC2CC;
-	border-right: 1px solid #AFC2CC;
-	border-top: 0;
-	border-left: 0;
-	border-radius: 50%;
+    border: none;
 	float: right;
-	margin-top: 5px;
-	margin-right: 5px;
+	margin-top: 2px;
+	margin-right: 2px;
 	
 }
 .add-subtask:hover {
