@@ -25,12 +25,12 @@ body {
 
 
 .add-button {
-	background-color: #6190A8;
-	width: 100 px;
-	height: 100 px;
-	border-radius: 50%;
-	float: right;
-	margin-right: 10%;
+
+	float: left;
+	margin-left: 10%;
+	margin-bottom: 100px;
+	background-color: transparent;
+	border: none;
 	
 	
 }
