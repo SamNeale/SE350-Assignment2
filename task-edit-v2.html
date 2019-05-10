@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-    <link rel="stylesheet" href="task-breakdown.css">
+    <link rel="stylesheet" href="task-edit-v2.css">
 	<link rel="stylesheet" href="topnav.css">
 	
 	<title>Tasker</title>
@@ -46,13 +46,13 @@
 		</button>
 	
 
-	<h3 class="task-name">
-		
-		303 Project: Write Report
+	<div class="task-name">
+		<textarea class="title"> 303 Project: Write Report
+		</textarea>
 		<button class="edit-button"> <a href="task-edit.html" style="text-decoration:none">
-			<img src="images/edit-icon.png" width="30" height="30" align="bottom">
+			<img src="images/save-icon.png" width="30" height="30" align="bottom">
 		</a></button>
-	</h3>
+	</div>
 	
 	
 
@@ -62,7 +62,8 @@
 
 	<div class="task-breakdown">
 		<div class="catagories" gird-row="1">    
-			<div class="breakdown-heading">Assigned to</div>  
+			<div class="breakdown-heading">Assigned to</div> 
+			<button class="edit-plus-member"><img class="edit-member-photo" src="images/plus-icon.png" align=right></button>
 			<img class="task-member-photo" src="images/members/donald.jpg" align=right>
 			<img class="task-member-photo" src="images/members/regina.jpg" align=right>  
 		</div> 
@@ -81,22 +82,20 @@
 		
 		<div class="catagories" grid-row="3">    
 			<div class="breakdown-heading">Description</div>    
-			<div class="description scrollable">
-				You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct
-				a  feasibility  study  of upscaling the manufacturing and roll-out of the
-				biospife for ZESPRI’s international markets. Summarise your results into a 
-				formal report.
-			</div>
+			<textarea class="description scrollable">You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct a  feasibility  study  of upscaling the manufacturing and roll-out of the biospife for ZESPRI’s international markets. Summarise your results into a formal report.
+			</textarea>
 		</div>
 		
 		<div class="catagories" grid-row="4">    
 			<div class="breakdown-heading">Skills</div>  
-		
-			<div class="skills">    
-				<div class="reg-text">Creativity</div>    
-			</div> 
+			<div class="skills">
+				<div class="reg-text">Creativity</div> 
+			</div>
 			<div class="skills">    
 				<div class="reg-text">Writing</div>    
+			</div>
+			<div = "skills">
+				<button class="edit-plus-skills" align="right"><img class="edit-plus" src="images/plus-icon.png" align=right></button>
 			</div>
 		</div> 
 		
@@ -119,8 +118,8 @@
           <tr>
             <td><input type="checkbox" name="sub-tasks" />Best fit option</td>
           </tr>
-          <tr>
-            <td><input type="checkbox" name="sub-tasks" />Conclusion</td>
+		  <tr>
+            <td><input type="checkbox" name="sub-tasks" /><textarea class="text-check">Conclusion</textarea></td>
           </tr>
         </table>
 		</div>

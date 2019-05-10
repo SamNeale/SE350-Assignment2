@@ -38,33 +38,38 @@
 
 	<br>
 	
-
 	
+		<button class="back-button">
+			<a href="Project.html" style="text-decoration: none">
+				<img src="images/back-icon.png" width="50" height="50" align="bottom">
+			</a>
+		</button>
+	
+
 	<div class="task-name">
-		
-		<textarea class="text-header" >
-			303 Project: Write Report
+		<textarea class="title"> 303 Project: Write Report
 		</textarea>
-		
-		<button class="edit-button"> <a href="task-breakdown.html" style="text-decoration:none">
+		<button class="edit-button"> <a href="task-edit.html" style="text-decoration:none">
 			<img src="images/save-icon.png" width="30" height="30" align="bottom">
 		</a></button>
-		
 	</div>
+	
+	
+
+
 
 	<br>
 
 	<div class="task-breakdown">
-		<figure class="catagories" gird-row="1">    
-			<figcaption class="breakdown-heading">Assigned to:</figcaption>  
-			<button class="edit-plus-member"><img class="edit-member-photo" src="images/plus-icon.png" align=right></button>	
-			<img class="edit-member-photo" src="images/members/donald.jpg" align=right>
-			<img class="edit-member-photo" src="images/members/regina.jpg" align=right> 
-					
-		</figure> 
+		<div class="catagories" gird-row="1">    
+			<div class="breakdown-heading">Assigned to</div> 
+			<button class="edit-plus-member"><img class="edit-member-photo" src="images/plus-icon.png" align=right></button>
+			<img class="task-member-photo" src="images/members/donald.jpg" align=right>
+			<img class="task-member-photo" src="images/members/regina.jpg" align=right>  
+		</div> 
 		
-		<figure class="catagories" grid-row="2">    
-			<figcaption class="breakdown-heading">Status:</figcaption>  
+		<div class="catagories" grid-row="2">    
+			<div class="breakdown-heading">Status</div>  
 			<div class="dropdown" style="float:right;">
 				<button class="dropbtn">To be started</button>
 				<div class="dropdown-content">
@@ -73,32 +78,31 @@
 					<a href="#">Finished</a>
 				</div>
 			</div>
-		</figure> 
+		</div> 
 		
-		<figure class="catagories" grid-row="3">    
-			<figcaption class="breakdown-heading">Description:</figcaption>    
-			<div class="description">
-				<textarea class="desc-text"> You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct a  feasibility  study  of upscaling the manufacturing and roll-out of the biospife for ZESPRI’s international markets. Summarise your results into a formal report.</textarea>
+		<div class="catagories" grid-row="3">    
+			<div class="breakdown-heading">Description</div>    
+			<textarea class="description scrollable">You  and  your  team  have  been  commissioned  by  ZESPRI  to  conduct a  feasibility  study  of upscaling the manufacturing and roll-out of the biospife for ZESPRI’s international markets. Summarise your results into a formal report.
+			</textarea>
+		</div>
+		
+		<div class="catagories" grid-row="4">    
+			<div class="breakdown-heading">Skills</div>  
+			<div class="skills">
+				<div class="reg-text">Creativity</div> 
 			</div>
-		</figure>
+			<div class="skills">    
+				<div class="reg-text">Writing</div>    
+			</div>
+			<div = "skills">
+				<button class="edit-plus-skills" align="right"><img class="edit-plus" src="images/plus-icon.png" align=right></button>
+			</div>
+		</div> 
 		
-		<figure class="catagories" grid-row="4">    
-			<figcaption class="breakdown-heading">Skills: </figcaption>  
-					<button class="edit-plus-skills" align="right"><img class="edit-plus" src="images/plus-icon.png" align=right></button>
-			<figure class="skills">    
-				<figcaption class="reg-text">Creativity<button class="cross-button"><img class="cross-img" align=right src="images/x-icon2.png"> </button></figcaption>    
-			</figure> 
-			<figure class="skills">    
-				<figcaption class="reg-text">Writing<button class="cross-button"><img class="cross-img" align=right src="images/x-icon2.png"> </button></</figcaption>    
-			</figure>
-			
-		</figure> 
-		
-		
-		<figure class="catagories" grid-row="5">    
-			<figcaption class="breakdown-heading">Subtasks:</figcaption>
-			<div class="table-overflow">
-			<table id="subtasks-table">
+		<div class="catagories" grid-row="5">    
+			<div class="breakdown-heading">Subtasks</div>
+		<div class="table-overflow">	
+		<table id="subtasks-table">
           <tr>
             <td><input type="checkbox" name="sub-tasks" />Introduction</td>
           </tr>
@@ -114,16 +118,11 @@
           <tr>
             <td><input type="checkbox" name="sub-tasks" />Best fit option</td>
           </tr>
-          <tr>
-            <td><input type="checkbox" name="sub-tasks" />Conclusion</td>
-          </tr>
 		  <tr>
-            <td><input type="checkbox" name="sub-tasks" /><textarea class="text-check">Add new item</textarea></td>
+            <td><input type="checkbox" name="sub-tasks" /><textarea class="text-check">Conclusion</textarea></td>
           </tr>
         </table>
 		</div>
-		</figure> 
-		
 	</div>
 	 
 </body>
