@@ -72,7 +72,6 @@ body {
 #tasks-table {
 	border-collapse: collapse;
 	width: 100%;
-	margin-bottom: 16px;
 	font-size: 16px;
 	//border-radius: 50px;
 	padding-left: 30px;
@@ -179,4 +178,7 @@ body {
 	grid-template-columns: 30% 30% 30%;
 	grid-column-gap: 5%;
 }
-
+.table-overflow {
+	overflow-y: scroll;
+margin-bottom: 2%;	
+}
