@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
     <link rel="stylesheet" href="task-breakdown.css">
 	<link rel="stylesheet" href="topnav.css">
+	<script src="task-breakdown-js.js"></script>
 	
 	<title>Tasker</title>
 	
@@ -73,12 +74,11 @@
 		<div class="catagories" grid-row="2">    
 			<div class="breakdown-heading">Status</div>  
 			<div class="dropdown" style="float:right;">
-				<button class="dropbtn">To be started</button>
-				<div class="dropdown-content">
-					<a href="#">To be started</a>
-					<a href="#">In progress</a>
-					<a href="#">Finished</a>
-				</div>
+				<select id="dropbtn">
+					<option value="tbs">To be started</option>
+					<option value="in_p" selected>In progress</option>
+					<option value="fin">Finished</option>
+				</select>
 			</div>
 		</div> 
 		
@@ -108,22 +108,22 @@
 		<div class="table-overflow">	
 		<table id="subtasks-table">
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Introduction</td>
+            <td><input type="checkbox" name="sub-tasks" checked/>Introduction</td>
           </tr>
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Stakeholder analysis</td>
+            <td><input type="checkbox" name="sub-tasks" checked/>Stakeholder analysis</td>
           </tr>
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Project definition</td>
+            <td><input type="checkbox" name="sub-tasks" checked/>Project definition</td>
           </tr>
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Options analysis</td>
+            <td><input type="checkbox" name="sub-tasks" checked/>Options analysis</td>
           </tr>
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Best fit option</td>
+            <td><input type="checkbox" name="sub-tasks" checked/>Best fit option</td>
           </tr>
           <tr>
-            <td><input type="checkbox" name="sub-tasks" />Conclusion</td>
+            <td><input type="checkbox" id='conc' name="sub-tasks" onclick="update_drop_down()"/>Conclusion</td>
           </tr>
         </table>
 		</div>

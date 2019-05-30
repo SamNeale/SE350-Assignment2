@@ -106,7 +106,7 @@ body {
 }
 
 /* Status Dropdown */
-.dropbtn {
+#dropbtn {
 	float: centre;
   background-color: #6190A8;
   color: white;
@@ -116,6 +116,9 @@ body {
   font-size: 18px;
   border: none;
   margin-top: 10px;
+}
+#dropbtn:focus {
+	outline: 0;
 }
 
 
