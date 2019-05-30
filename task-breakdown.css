@@ -116,6 +116,8 @@ body {
   font-size: 18px;
   border: none;
   margin-top: 10px;
+  text-align: center;
+  padding-left: 10px;
 }
 #dropbtn:focus {
 	outline: 0;
@@ -124,27 +126,7 @@ body {
 
 /* Dropdown Content */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  min-width: 160px;
-   border-radius: 8px;
-  font-size: 18px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: centre;
-  color: #4a4b4c;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
+	border-radius: 10px;
 }
 
 .member-photo {
@@ -153,13 +135,6 @@ body {
 	display: inline-block; 
 }
 
-.dropdown:hover .dropdown-content {
-	display: block;
-}
-
-.dropdown:hover .dropbtn {
-	background-color: #a9d2d6;
-}
 
 .description{
 	float:right;

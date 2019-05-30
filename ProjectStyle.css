@@ -35,12 +35,13 @@ body {
 	margin-left: 5%;
 	color: #455056;
 	font-size: 26px;
-
+	
 	display: inline-block; 
 }
 
 .tasks-title {
 	padding-top: 20px;
+	display: inline-block;
 }
 
 .tasks-btn {
@@ -190,5 +191,23 @@ body {
 }
 .table-overflow {
 	overflow-y: scroll;
-margin-bottom: 2%;	
+	margin-bottom: 2%;	
+}
+
+.progress-wrapper {
+	background-color: #c4cecd;
+	border-radius: 8px;
+	text-align: center;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 80%;
+	float: right;
+	margin-bottom: 3%;
+	margin-top: 3%;
+}
+.progress-bar {
+	background-color: #58B1DD;
+	border-radius: 8px;
+	color: #455056;
+	padding: 3px;
 }
