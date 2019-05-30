@@ -53,16 +53,21 @@ body {
 		text-align: center;
 		margin-top: 10px;
 		margin-bottom: 10px;
+		border-radius: 10px;
+		border: none;
+		width: 15%;
 
 }
 
 .tasks-btn:hover {
 	text-decoration: underline;
 }
+.tasks-btn:focus {
+	outline: 0;
+}
 
 .task-btn-active {
-	height: 20px;
-	width: 10%;
+	width: 15%;
 	background-color: #6190A8;
 	border-radius: 10px;
 	color: white;
@@ -73,7 +78,6 @@ body {
 	border-collapse: collapse;
 	width: 100%;
 	font-size: 16px;
-	//border-radius: 50px;
 	padding-left: 30px;
 }
 
@@ -169,11 +173,12 @@ body {
 	display: inline-block;
 	box-shadow: 2px 2px grey;
 }
+.member-photo:hover, .member-photo-caption:hover {
+	cursor: pointer;
+}
 
 .member-photo-caption {
 	font-size: 20px;
-	//padding-left: 20px;
-	//display: inline-block;
 	float: right;
 	padding-top: 25%;
 	text-align: left;
