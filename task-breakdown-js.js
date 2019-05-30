@@ -1,7 +1,6 @@
 var cName = 'update';
-init();
 
-function init() {
+window.onload = function() {
 	if (sessionStorage.getItem(cName) == 0) {
 		document.getElementById('dropbtn').value = 'in_p';
 		document.getElementById('conc').checked = false;

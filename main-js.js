@@ -1,11 +1,14 @@
 var cName = 'update';
-var update_prog = 0;
-init(update_prog);
 
-function init(val) {
-	sessionStorage.setItem(cName,val);
-	document.writeln('js works');
-	document.writeln(sessionStorage.getItem(cName));
+
+window.onload = function(){
+	
+	var update = sessionStorage.getItem(cName);
+	if (update == 1) {
+		var progBar = document.getElementById('prog-bar');
+		progBar.innerHTML = '100%';
+		progBar.style.width = '100%';
+	}	
 }
 
 
